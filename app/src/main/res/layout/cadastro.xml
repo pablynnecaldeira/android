@@ -60,6 +60,19 @@
             android:inputType="number"
             android:textSize="34sp" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPasswordCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Senha"
+            android:inputType="textPassword"
+            android:textSize="34sp" />
+
         <Button
             android:id="@+id/buttonCadastro"
             android:layout_width="match_parent"

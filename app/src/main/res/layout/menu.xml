@@ -3,4 +3,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="76dp" />
+
+        <TextView
+            android:id="@+id/textViewTituloMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:text="Sistema de Controle"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#3F51B5"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="87dp" />
+
+        <Button
+            android:id="@+id/buttonCadastroMenu"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:text="Cadastro"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="42dp" />
+
+        <Button
+            android:id="@+id/buttonPesquisaMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesquisa"
+            android:textSize="34sp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
