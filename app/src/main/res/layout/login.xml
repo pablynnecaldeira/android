@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Sistema de Controle"
+            android:textAlignment="center"
+            android:textSize="48sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <TextView
+            android:id="@+id/textViewSubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+        <TextView
+            android:id="@+id/textViewNome"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:translationX="20px" />
+
+        <EditText
+            android:id="@+id/editTextTextNomeLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="39dp" />
+
+        <TextView
+            android:id="@+id/textViewSenha"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:text="Senha"
+            android:translationX="20px" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Senha"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="autenticar"
+            android:text="Autenticar"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <TextView
+            android:id="@+id/textViewErroLogin"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:text="Nome ou Senha incorreto"
+            android:textColor="#F44336"
+            android:textSize="16sp"
+            android:translationX="24px" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
