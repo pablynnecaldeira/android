@@ -31,6 +31,7 @@
             android:id="@+id/buttonCadastroMenu"
             android:layout_width="match_parent"
             android:layout_height="81dp"
+            android:onClick="cadastrar"
             android:text="Cadastro"
             android:textSize="34sp" />
 
@@ -42,6 +43,7 @@
             android:id="@+id/buttonPesquisaMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="pesquisar"
             android:text="Pesquisa"
             android:textSize="34sp" />
     </LinearLayout>
